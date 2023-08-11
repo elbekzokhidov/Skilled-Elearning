@@ -1,0 +1,13 @@
+@mixin buttons($pt, $pb, $pl, $pr, $bg) {
+  padding-top: $pt;
+  padding-bottom: $pb;
+  padding-left: $pl;
+  padding-right: $pr;
+  background: $bg;
+}
+@mixin font($c, $lh, $fw, $fs) {
+  color: $c;
+  line-height: $lh;
+  font-weight: $fw;
+  font-size: $fs;
+}

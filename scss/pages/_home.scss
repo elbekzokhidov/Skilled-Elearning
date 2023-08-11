@@ -1,0 +1,118 @@
+main {
+  flex-grow: 1;
+  background: $background-color;
+}
+.hero__container {
+  display: flex;
+  justify-content: space-between;
+}
+.hero__title {
+  margin-top: 17.8rem;
+  width: 504px;
+  @include font($dark-green-color, normal, 800, 5.6rem);
+}
+.hero__text {
+  margin-top: 3rem;
+  width: 423px;
+  @include font($text-color, 2.8rem, 500, 1.8rem);
+}
+.hero__btn {
+  margin-top: 4rem;
+  margin-bottom: 25rem;
+}
+.hero__img {
+  display: flex;
+  position: relative;
+  left: 10rem;
+  bottom: 8rem;
+}
+.services {
+  padding-bottom: 14rem;
+}
+.container1 {
+  margin-bottom: 8rem;
+}
+.container1__list {
+  display: flex;
+  justify-content: space-between;
+}
+.container1__bigitem {
+  width: 100%;
+  max-width: 350px;
+  background: $main-background;
+  padding: 6.4rem 3.2rem 13.8rem 3.2rem;
+  border-radius: 15px;
+}
+.container1__bigitem__title {
+  @include font($white-color, 4rem, 800, 3.2rem);
+  width: 286px;
+}
+.container1__item {
+  border-radius: 15px;
+  box-shadow: 0px 25px 50px 0px rgba(6, 22, 141, 0.04);
+  width: 100%;
+  max-width: 350px;
+}
+.container1__list__img {
+  margin-top: -2.4rem;
+  margin-left: 3.2rem;
+  margin-bottom: 3.2rem;
+}
+.ccontainer1__item__title {
+  margin-left: 3.2rem;
+  margin-bottom: 2.4rem;
+  @include font($dark-green-color, normal, 800, 24px);
+}
+.container1__item__text {
+  margin-left: 3.2rem;
+  margin-bottom: 2.4rem;
+  width: 286px;
+  @include font($text-color, 2.8rem, 500, 18px);
+}
+.container1__item__link {
+  margin-left: 3.2rem;
+  margin-bottom: 4rem;
+  @include font($main-link-color, 2.8rem, 700, 18px);
+}
+.margin {
+  margin-bottom: 5.2rem;
+}
+.container1__item__link:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+.container2__list {
+  display: flex;
+  justify-content: space-between;
+}
+.container2__item {
+  border-radius: 15px;
+  box-shadow: 0px 25px 50px 0px rgba(6, 22, 141, 0.04);
+  width: 100%;
+  max-width: 350px;
+}
+.container2__list__img {
+  margin-bottom: 3.2rem;
+  margin-top: -2.4rem;
+  margin-left: 3.2rem;
+}
+.ccontainer2__item__title {
+  margin-left: 3.2rem;
+  margin-bottom: 2.4rem;
+  @include font($dark-green-color, normal, 800, 24px);
+}
+.container2__item__text {
+  margin-left: 3.2rem;
+  margin-bottom: 2.4rem;
+  @include font($text-color, 2.8rem, 500, 18px);
+  width: 286px;
+}
+.container2__item__link {
+  margin-left: 3.2rem;
+  margin-bottom: 4rem;
+  @include font($main-link-color, 2.8rem, 700, 18px);
+}
+.container2__item__link:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}

@@ -1,0 +1,10 @@
+.footer {
+  background: $dark-green-color;
+}
+.footer__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 3.2rem;
+    padding-bottom: 3.2rem;
+}

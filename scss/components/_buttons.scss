@@ -1,0 +1,24 @@
+.header__btn {
+  @include buttons(1.4rem, 1.4rem, 3.1rem, 3.1rem, $dark-green-color);
+  @include font($white-color, 2.8rem, 700, 18px);
+  border-radius: 28px;
+  &:hover {
+    opacity: 0.6;
+  }
+}
+.hero__btn {
+  @include buttons(1.9rem, 1.6rem, 3.1rem, 3.2rem, $main-background);
+  @include font($white-color, 2.8rem, 700, 18px);
+  border-radius: 31px;
+  &:hover {
+    opacity: 0.6;
+  }
+}
+.footer__btn {
+  @include buttons(1.4rem, 1.4rem, 3.1rem, 3.2rem, $footer__btn);
+  @include font($white-color, 2.8rem, 700, 18px);
+  border-radius: 28px;
+  &:hover {
+    opacity: 0.6;
+  }
+}
